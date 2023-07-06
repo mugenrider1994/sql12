@@ -27,9 +27,10 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Installation
 Uses the Inquirer package
-Uses the MySQL2 package. to connect to a MySQL database.
+Uses the MySQL2 package to connect to a MySQL database.
 
 ## License
 MIT
 
 ## Screenshots
+<img src="SQL.png">
