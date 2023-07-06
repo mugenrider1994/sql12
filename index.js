@@ -277,17 +277,3 @@ function updateEmployeeRole() {
     });
   });
 }
-  
-
-  
-
-// Helper function to run SQL files
-runSQLFile('seed.sql')
-  .then((results) => {
-    console.log('SQL file executed successfully!');
-    // Handle the results if needed
-  })
-  .catch((err) => {
-    console.error('Error executing SQL file: ' + err);
-    // Handle the error if needed
-  });
