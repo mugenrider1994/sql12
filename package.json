@@ -1,0 +1,16 @@
+{
+  "name": "command-line-app",
+  "version": "1.0.0",
+  "description": "Command-line application with MySQL database",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.4.2"
+  },
+
+"scripts": {
+  "start": "node index.js"
+},
+"author": "Megan Glorioso",
+"license": "MIT"
+}
