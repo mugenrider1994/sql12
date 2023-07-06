@@ -113,6 +113,8 @@ function addDepartment() {
       },
     ])
     .then((answers) => {
+      console.log('Adding department:', answers.name); // Debugging statement
+
       connection.query(
         'INSERT INTO department (name) VALUES (?)',
         [answers.name],
@@ -121,6 +123,7 @@ function addDepartment() {
             console.error('Error adding department: ' + err);
             return;
           }
+
           console.log('Department added successfully!');
           startApp();
         }
@@ -204,7 +207,7 @@ function addEmployee() {
         {
           type: 'input',
           name: 'manager',
-          message: "Enter the employee's manager (optional):",
+          message: "Enter the employee's manager number:",
         },
       ])
       .then((answers) => {
