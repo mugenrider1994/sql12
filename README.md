@@ -42,7 +42,7 @@ To run this application, you need the following dependencies:
 
 ## Screenshots
 
-![<img src="SQL.png">](<img src="SQL.png">)
+<img src="SQL.png">
 
 ## Getting Started
 
