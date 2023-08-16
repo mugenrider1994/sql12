@@ -1,4 +1,3 @@
-const readmeContent = `
 # SQL12 - Employee Management System
 
 ## Description
@@ -7,11 +6,11 @@ SQL12 is a command-line application designed to help business owners easily view
 
 ## User Story
 
-\`\`\`plaintext
+
 AS A business owner
 I WANT to be able to view and manage the departments, roles, and employees in my company
 SO THAT I can organize and plan my business
-\`\`\`
+
 
 ## Acceptance Criteria
 
@@ -48,14 +47,14 @@ To run this application, you need the following dependencies:
 
 1. Clone the repository.
 2. Install the required dependencies using:
-   \`\`\`sh
+   
    npm install
-   \`\`\`
+   
 3. Set up your MySQL database and connection in the appropriate files.
 4. Run the application:
-   \`\`\`sh
+   
    npm start
-   \`\`\`
+   
 5. Follow the prompts to manage departments, roles, and employees in your company.
 
 ## License
@@ -65,4 +64,6 @@ This project is licensed under the MIT License.
 ## GitHub Repository
 
 Find the code and more details in the [https://github.com/mugenrider1994/sql12]
-`;
+
+
+
