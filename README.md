@@ -64,5 +64,5 @@ This project is licensed under the MIT License.
 
 ## GitHub Repository
 
-Find the code and more details in the [GitHub Repository](https://github.com/yourusername/sql12).
+Find the code and more details in the [https://github.com/mugenrider1994/sql12]
 `;
